@@ -1,6 +1,6 @@
 # Derive gender from a column of first names
 
-*This tutorial is based on ["From OMBD to Gender Data on Film Directors"](http://blog.silk.co/post/127234807482/from-ombd-to-gender-data-on-film-directors-how-to).*
+*This tutorial is based on ["From OMBD to Gender Data on Film Directors."](http://blog.silk.co/post/127234807482/from-ombd-to-gender-data-on-film-directors-how-to)*
 
 What can you do if you want to perform a gender-based analysis of your datasets, but "gender" isn't a category in your data? You can use computational methods to perform an educated guess, based on the first name of the person.
 
