@@ -1,10 +1,10 @@
-# Derive gender from a column of first names
+# Automatically guess gender from a column of first names
 
 *This tutorial is based on ["From OMBD to Gender Data on Film Directors."](http://blog.silk.co/post/127234807482/from-ombd-to-gender-data-on-film-directors-how-to)*
 
 What can you do if you want to perform a gender-based analysis of your dataset, but "gender" isn't a category in your data? You can use computational methods to perform an educated guess, based on the first name of the person.
 
-Is it flawless? No way. First names can often be ambiguous, and a woman could easily have a "man's" name, or vice versa. But often a name is all we have, and sometimes the benefits of performing a gender-based analysis outweigh the problems of computationally deriving gender.
+Is it flawless? No way. First names can often be ambiguous, and a woman could easily have a "man's" name, or vice versa. But often a name is all we have, and sometimes the benefits of performing a gender-based analysis outweigh the problems of computationally guessing gender.
 
 In this tutorial, we'll use a tool called genderize.io. Genderize takes advantage of a database of thousands of names and genders to give you a probable gender for a name. It also gives you a probability for each guess at gender. You can read more about it [here](https://genderize.io/).
 
